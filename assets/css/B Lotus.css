@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'B Lotus';
+	src: url(../../assets/fonts/B%20Lotus-3147f0767704f6a402c885f982a32a34.woff2) format('woff2'),
+	url(../../assets/fonts/B%20Lotus-b27e44ed354251f7a03460c7045afc6c.woff) format('woff'),
+	url(../../assets/fonts/B%20Lotus-654fcce063fbb87e3cc7da0161557ded.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'B Lotus';
+	src: url(../../assets/fonts/B%20Lotus-b93ac230a5696d542762035c39affb23.woff2) format('woff2'),
+	url(../../assets/fonts/B%20Lotus-f429c0126b15813adf96f6e3b771f5e2.woff) format('woff'),
+	url(../../assets/fonts/B%20Lotus-4d67041056fa9481f8f5c169b453099a.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}

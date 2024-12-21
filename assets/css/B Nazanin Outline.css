@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'B Nazanin Outline';
+	src: url(../../assets/fonts/B%20Nazanin%20Outline-34d0847a13ca68adf073beff11687081.woff2) format('woff2'),
+	url(../../assets/fonts/B%20Nazanin%20Outline-dcfaca52245fcf4522fe27ed7d4602b2.woff) format('woff'),
+	url(../../assets/fonts/B%20Nazanin%20Outline-1facb987b126ac6ee552b4141ccc02cf.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

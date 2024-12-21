@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'B Zar';
+	src: url(../../assets/fonts/B%20Zar-1fa4c96bc382077280054ec5d38cdbd7.woff2) format('woff2'),
+	url(../../assets/fonts/B%20Zar-126e638fc6d3d44d6f00ef1e122444f9.woff) format('woff'),
+	url(../../assets/fonts/B%20Zar-bbd43dd7f02264b8277bbebc68648537.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'B Zar';
+	src: url(../../assets/fonts/B%20Zar-5589de4cc21e0986885e140f853c0622.woff2) format('woff2'),
+	url(../../assets/fonts/B%20Zar-1af3255aa0f0ac4ee0577ed3e0da8f86.woff) format('woff'),
+	url(../../assets/fonts/B%20Zar-87b08f2f8332bc4a200340454ee878fa.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}

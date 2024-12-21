@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'IranNastaliq';
+	src: url(../../assets/fonts/IranNastaliq-1a1521549b44d688412013ec4596c04d.woff2) format('woff2'),
+	url(../../assets/fonts/IranNastaliq-9432f52d7858dd4243b6949c79289b15.woff) format('woff'),
+	url(../../assets/fonts/IranNastaliq-e993862e83566fa8a64340b922082d48.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

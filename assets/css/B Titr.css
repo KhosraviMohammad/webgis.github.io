@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'B Titr';
+	src: url(../../assets/fonts/B%20Titr-12e0a2a067b81d13424b85ed4e15dfd9.woff2) format('woff2'),
+	url(../../assets/fonts/B%20Titr-b4fc2cba395045bbdb300600402f5b82.woff) format('woff'),
+	url(../../assets/fonts/B%20Titr-16d7c87ab7a12aeb1a6d97c67fd048d8.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}

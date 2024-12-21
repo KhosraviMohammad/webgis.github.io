@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'B Nazanin';
+	src: url(../../assets/fonts/B%20Nazanin-fc9d6aefd409426cbdaa51b5376955c8.woff2) format('woff2'),
+	url(../../assets/fonts/B%20Nazanin-83f845d5f90f9867413afa2a0ca84a7a.woff) format('woff'),
+	url(../../assets/fonts/B%20Nazanin-604a7a0b12efb2c27aa36f310d62d15b.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
