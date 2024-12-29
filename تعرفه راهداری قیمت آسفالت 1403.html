@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MRUD_WEBGIS</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/B%20Lotus.css">
+    <link rel="stylesheet" href="assets/css/B%20Nazanin.css">
+    <link rel="stylesheet" href="assets/css/B%20Nazanin%20Outline.css">
+    <link rel="stylesheet" href="assets/css/B%20Titr.css">
+    <link rel="stylesheet" href="assets/css/B%20Zar.css">
+    <link rel="stylesheet" href="assets/css/IranNastaliq.css">
+    <link rel="stylesheet" href="assets/css/Data-Table-styles.css">
+    <link rel="stylesheet" href="assets/css/Data-Table.css">
+    <link rel="stylesheet" href="assets/css/Forum---Thread-listing-forum.css">
+    <link rel="stylesheet" href="assets/css/Forum---Thread-listing.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Basic-icons.css">
+    <link rel="stylesheet" href="assets/css/Multi-step-form.css">
+    <link rel="stylesheet" href="assets/css/Table-with-search-table.css">
+    <link rel="stylesheet" href="assets/css/Table-with-search.css">
+</head>
+
+<body>
+    <div style="height: 96px;">
+        <nav class="navbar navbar-expand-md bg-body py-3">
+            <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span style="background: url(&quot;assets/img/لوگوی%20راه%20و%20شهرسازی.png&quot;) center / contain no-repeat;width: 90.7031px;height: 92px;"></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-2">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#" style="font-family: IranNastaliq;padding-right: 21px;font-size: 20px;">گزینه سوم</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="font-family: IranNastaliq;padding-right: 21px;font-size: 20px;">گزینه دوم</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="font-family: IranNastaliq;padding-right: 21px;font-size: 20px;">گزینه اول</a></li>
+                    </ul><a href="#" style="padding-left: 20px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person-fill bg-warning bg-opacity-50 border rounded-circle border-2 border-dark shadow-lg" style="font-size: 34px;color: var(--bs-navbar-brand-color);text-align: center;">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"></path>
+                        </svg></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section style="padding-bottom: 0px;margin-bottom: -95px;padding-top: 43px;">
+        <div class="container" style="text-align: right;"><small class="form-text" style="text-align: right;font-family: 'B Titr';" dir="rtl">لطفاً جاهای خالی را پر کنید تا نتیجه به شما نشان داده شود:</small></div>
+    </section>
+    <section style="padding-top: 126px;padding-bottom: 64px;margin-left: -3px;padding-left: 2px;">
+        <section>
+            <div id="multple-step-form-n" class="container overflow-hidden" style="margin-top: 0px;margin-bottom: 10px;padding-bottom: 300px;padding-top: 57px;">
+                <div id="progress-bar-button" class="multisteps-form">
+                    <div class="row" style="margin-left: 334px;">
+                        <div class="col-12 col-lg-8 ml-auto mr-auto mb-4">
+                            <div class="multisteps-form__progress"><a class="btn multisteps-form__progress-btn js-active" role="button" title="User Info" style="font-family: 'B Nazanin';">مرحله اول</a><a class="btn multisteps-form__progress-btn" role="button" title="User Info" style="font-family: 'B Nazanin';">مرحله دوم</a><a class="btn multisteps-form__progress-btn" role="button" title="User Info" style="font-family: 'B Nazanin';">نتیجه</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="multistep-start-row" class="row">
+                    <div id="multistep-start-column" class="col-12 col-lg-8 m-auto">
+                        <form id="main-form" class="multisteps-form__form">
+                            <div id="single-form-next" class="multisteps-form__panel shadow p-4 rounded bg-white js-active" data-animation="scaleIn">
+                                <h3 class="text-center multisteps-form__title" style="font-family: 'B Titr';color: var(--bs-secondary-color);">مشخصات</h3>
+                                <div id="form-content" class="multisteps-form__content">
+                                    <div id="input-grp-double" class="form-row mt-4">
+                                        <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="مساحت به متر مربع" style="font-family: 'B Nazanin';"></div>
+                                        <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="ضخامت لایه به میلی متر" style="font-family: 'B Nazanin';"></div>
+                                    </div>
+                                    <div id="input-grp-single" class="form-row mt-4">
+                                        <div class="col-12"><input class="form-control multisteps-form__input" type="text" placeholder="مقدار نرمه" style="font-family: 'B Nazanin';"></div>
+                                    </div>
+                                    <div id="next-button" class="button-row d-flex mt-4"><button class="btn btn btn-primary ml-auto js-btn-next" type="button" title="Next" style="font-family: 'B Titr';background: var(--bs-gray-200);border-color: var(--bs-border-color-translucent);color: var(--bs-gray);">بعدی</button></div>
+                                </div>
+                            </div>
+                            <div id="single-form-next-prev" class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                                <h3 class="text-center multisteps-form__title" style="font-family: 'B Titr';color: var(--bs-secondary-color);">اطلاعات تکمیلی</h3>
+                                <div id="form-content-1" class="multisteps-form__content">
+                                    <div id="input-grp-double-1" class="form-row mt-4">
+                                        <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="اطلاعات بعدی" style="font-family: 'B Nazanin';"></div>
+                                        <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="اطلاعات تکمیلی" style="font-family: 'B Nazanin';"></div>
+                                    </div>
+                                    <div id="input-grp-single-1" class="form-row mt-4">
+                                        <div class="col-12"><input class="form-control multisteps-form__input" type="text" placeholder="اطلاعات نهایی" style="font-family: 'B Nazanin';"></div>
+                                    </div>
+                                    <div id="next-prev-buttons" class="button-row d-flex mt-4"><button class="btn btn btn-primary js-btn-prev" type="button" title="Prev" style="font-family: 'B Titr';background: var(--bs-gray-200);border-color: var(--bs-border-color-translucent);color: var(--bs-gray);">قبلی</button><button class="btn btn btn-primary ml-auto js-btn-next" type="button" title="Next" style="font-family: 'B Titr';background: var(--bs-gray-200);border-color: var(--bs-border-color-translucent);color: var(--bs-gray);">بعدی</button></div>
+                                </div>
+                            </div>
+                            <div id="single-form-next-prev-1" class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                                <h3 class="text-center multisteps-form__title" style="font-family: 'B Titr';color: var(--bs-secondary-color);">مرحله نهایی</h3>
+                                <div id="form-content-2" class="multisteps-form__content">
+                                    <div id="input-grp-double-2" class="form-row mt-4">
+                                        <div class="col-12 col-sm-6"><input class="form-control multisteps-form__input" type="text" placeholder="داده 1" style="font-family: 'B Nazanin';"></div>
+                                        <div class="col-12 col-sm-6 mt-4 mt-sm-0"><input class="form-control multisteps-form__input" type="text" placeholder="داده 2" style="font-family: 'B Nazanin';"></div>
+                                    </div>
+                                    <div id="input-grp-single-2" class="form-row mt-4">
+                                        <div class="col-12"><input class="form-control multisteps-form__input" type="text" placeholder="داده 3" style="font-family: 'B Nazanin';"></div>
+                                    </div>
+                                    <div id="next-prev-buttons-1" class="button-row d-flex mt-4"><button class="btn btn btn-primary js-btn-prev" type="button" title="Prev" style="background: var(--bs-gray-200);font-family: 'B Titr';border-color: var(--bs-border-color-translucent);color: var(--bs-gray);">قبلی</button><button class="btn btn btn-primary ml-auto js-btn-next" type="button" title="Next" style="background: var(--bs-gray-200);font-family: 'B Titr';border-color: var(--bs-border-color-translucent);color: var(--bs-gray);">بعدی</button></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <nav class="navbar navbar-expand-md fixed-bottom bg-body" style="padding-bottom: 0px;margin-top: -76px;padding-top: 0px;" data-bs-theme="dark">
+        <div class="container-fluid"><a class="navbar-brand" href="https://www.parsphilosoph.ir" style="width: 140px;height: 70px;background: url(&quot;assets/img/کرمی%20رنگ%20fff8f3لوگوی%20مهندسین%20مشاور%20پارس%20فیلسوف.png&quot;) center / contain no-repeat;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="https://parsphilosoph.ir" style="font-family: IranNastaliq;font-size: 26px;">طراحی و ساخت توسط</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="assets/js/Multi-step-form-script.js"></script>
+    <script src="assets/js/Table-with-search-table.js"></script>
+</body>
+
+</html>
